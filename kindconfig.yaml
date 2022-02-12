@@ -22,4 +22,3 @@ networking:
   podSubnet: "10.220.0.0/16"
   serviceSubnet: "10.112.0.0/12"
   kubeProxyMode: "ipvs"
-  disableDefaultCNI: true

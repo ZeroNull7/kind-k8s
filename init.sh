@@ -1,7 +1,7 @@
 #!/bin/bash
 set -o errexit
 
-kind create cluster --config ./kind-config.yaml
+kind create cluster --config ./kindconfig.yaml
 
 kubectl create namespace flux-system
 kubectl create namespace infra 
